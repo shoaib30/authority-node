@@ -149,7 +149,7 @@ done
 
 parityupdate () {
     # pull new docker image
-    sudo docker pull parity/parity:v2.3.3
+    sudo docker pull parity/parity:v2.0.6
 
     # stop node
     sudo systemctl stop ewf-tobalaba-authority@ewf.service
